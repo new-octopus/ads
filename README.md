@@ -34,6 +34,6 @@ If you encounter any problems or questions, please visit the mAdserve help cente
 
 INSERT INTO `md_uaccounts` VALUES ('1', 'admin@vip.com', 'e10adc3949ba59abbe56e057f20f883e', '1', '1', 'allyes', 'hao', 'qaohao', '0', '15991673551', '88888888', 'gao xin street', 'xi\'an', 'shaanxi', '710000', 'china', '086', '1', '2014-03-24');
 
-ALTER TABLE `md_usessions` CHANGE `ip_address` `ip_adress` VARCHAR(100)DEFAULT NULL;
+ALTER TABLE `md_usessions` CHANGE `ip_address` `ip_address` VARCHAR(100)DEFAULT NULL;
 
 4. open http://www.yourserver.com/ads/www/cp/signin.php in browser, login system by administrator acount 'admin@vip.com' with password '123456'.
